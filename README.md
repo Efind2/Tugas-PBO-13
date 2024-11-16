@@ -154,13 +154,8 @@ Setelah File jadi anda bisa membuat tampilan layout anda sesuka hati, namun layo
         }                                           
 
 
-        
-
-
-
-
 ## Kode SQl 
-  - Tabel mata kuliah
+- Tabel mata kuliah
 
       CREATE TABLE mata_kuliah (
       kodemk CHAR(10) NOT NULL PRIMARY KEY,
@@ -169,13 +164,13 @@ Setelah File jadi anda bisa membuat tampilan layout anda sesuka hati, namun layo
       semesterajar INTEGER
       );
     
-  - Tabel Pengguna
+- Tabel Pengguna
 
-    CREATE TABLE pengguna (
-    username CHAR(100) PRIMARY KEY,
-    password CHAR(20) NOT NULL
-    );
-
+      CREATE TABLE pengguna (
+      username CHAR(100) PRIMARY KEY,
+      password CHAR(20) NOT NULL
+      );
+ 
 
 
 
